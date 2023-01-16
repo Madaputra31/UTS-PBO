@@ -1,1 +1,11 @@
-
+class parent():
+  def first(self):
+    print("ini adalah fungsi pertama")
+    
+class child(parent):
+  def second(self):
+    print("ini adalah fungsi ke dua")
+    
+obj = child()
+obj.first()
+obj.second()
